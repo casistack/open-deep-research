@@ -468,7 +468,7 @@ const DeepResearchProgress = ({
   const timeProgress = useMemo(() => {
     const elapsed = currentTime - startTime;
     return Math.min((elapsed / maxDuration) * 100, 100);
-  }, [currentTime, startTime]);
+  }, [currentTime, startTime, maxDuration]);
 
   // Get current phase
   const currentPhase = useMemo(() => {

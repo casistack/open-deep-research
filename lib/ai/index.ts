@@ -20,7 +20,7 @@ import { z } from "zod";
 import { customMiddleware } from "./custom-middleware";
 
 // Default model to use if none specified
-const DEFAULT_MODEL = "gpt-3.5-turbo";
+const DEFAULT_MODEL = "gpt-4o-mini";
 
 // Error schema for LiteLLM responses
 const liteLLMErrorSchema = z.object({
